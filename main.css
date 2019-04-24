@@ -1,0 +1,244 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'lato';
+    font-size:  16px;
+    background: #ffffff;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url(img/portada.png);
+    background-repeat: no repeat;
+    background-position: center;
+}
+
+header .menu{
+    display : flex;
+    justify-content: flex-end;
+    margin: 0px 100px;
+}
+
+header .menu a{
+    display: inline-block;
+    padding: 15px 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300; 
+    
+}
+
+header .menu a:hover{
+    text-decoration: underline;
+}
+
+header .contenedor-textos-header{
+    margin: 150px 0;
+    text-align:  center;
+}
+
+header .contenedor-textos-header .titulo-header{
+    font-size: 100px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+header .contenedor-textos-header .linea{
+    width: 600px;
+    margin: auto;
+    height: 3px;
+    background: blue;
+    margin-bottom: 20px;
+}
+
+header .contenedor-textos-header .subtitulo-header{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+header .contenedor-textos-header .call-to-action{
+    background: blue;
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #15a4fa;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius:5px;
+}
+
+header .contenedor-textos-header .call-to-action:hover{
+    background: #15a4fa;
+    color: #fff;
+}
+
+main .acerca-de{
+    background: #15a4fa;
+    padding: 30px 0;
+    text-align: center;
+}
+
+main .acerca-de .contenedor-textos-acerca .titulo-acerca{
+    font-size: 24px;
+    font-weight: 900;
+    /*color : #999; */
+    margin-bottom: 20px;
+}
+
+main .acerca-de .contenedor-textos-acerca .parrafo-acerca{
+    color: #999;
+    font-weight: 600;
+    margin-bottom: 20px
+}
+
+main .iconos{
+    padding: 20px 0;
+}
+
+.contenedor-iconos{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.contenedor-iconos .contenedor-individual{
+    background: #999;
+    border-radius: 15px;
+    width: 33%;
+    margin: 20px 0;
+}
+.contenedor-iconos .contenedor-individual:hover{
+    background: #15a4fa;
+    color: #fff;
+}
+.contenedor-iconos .contenedor-individual img{
+    width: 110px;
+    height: 110px;
+    padding: 11px 0;
+}
+
+.contenedor-iconos .contenedor-individual h3{
+    margin: 10px 0;
+}
+
+main .portafolio{
+    background: #f0f3f5;
+    padding: 60px 0;
+}
+
+main .contenedor-textos-portafolio{
+    text-align:  center;
+}
+main .contenedor-textos-portafolio .titulo-portafolio{
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+main .contenedor-textos-portafolio .parrafo-portafolio{
+    font-weight: normal;
+    color: #626262;
+    margin-bottom: 60px
+}
+
+main .portafolio .contenedor-portafolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .portafolio .contenedor-portafolio img{
+    border-radius: 15px; 
+    width: 300px;
+    height: 300px;
+    margin-bottom: auto;
+    
+        
+}
+
+main .portafolio .contenedor-portafolio img:hover{
+    opacity: .5;
+}
+
+footer{
+    width: 100%;
+    height: 600;
+    padding: 60px 0;
+    background: rgba(0, 0, 0, 0.692);
+}
+
+footer .footer-textos{
+    text-align: center;
+    color: #fff;
+}
+
+footer .footer-textos .titulo-contacto{
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+footer .footer-textos .titulo-parrafo{
+    font-weight: 300;
+    color: #a1a1a1;
+    margin-bottom: 45px;
+}
+
+footer .formulario{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin:auto;
+
+}
+footer .formulario .nombre-contacto, footer .formulario .nombre-email, footer .formulario .mensaje{
+    display: inline-block;
+    padding: 15px 20px;
+    margin-bottom: 5px;
+    background: none;
+    border: 1px solid #9999;
+    color: #999;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+footer .formulario .mensaje{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+footer .formulario .derecha{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .formulario .boton-envio{
+    display: inline-block;
+    padding: 10px 20px;
+    background:none;
+    color: #ffff;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+}
+
+footer .formulario .boton-envio:hover{
+    background: #15a4fa;
+    color: #ffff;
+    cursor: pointer;
+}
+
